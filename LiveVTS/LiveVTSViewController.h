@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LiveVTSViewController : UIViewController
+@interface LiveVTSViewController : UITableViewController
 
 @end
