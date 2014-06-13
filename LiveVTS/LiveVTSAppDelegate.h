@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface LiveVTSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

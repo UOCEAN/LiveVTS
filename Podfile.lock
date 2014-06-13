@@ -1,0 +1,10 @@
+PODS:
+  - StreamingKit (0.1.22)
+
+DEPENDENCIES:
+  - StreamingKit (= 0.1.22)
+
+SPEC CHECKSUMS:
+  StreamingKit: 9894c3c16383989d37172ca9b024591e6d51f0c5
+
+COCOAPODS: 0.33.1

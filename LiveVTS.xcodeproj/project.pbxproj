@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C13874E194839A3009EF184 /* LiveVTSChLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C13874D194839A3009EF184 /* LiveVTSChLiveViewController.m */; };
+		5C13875019483E44009EF184 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C13874F19483E44009EF184 /* AVFoundation.framework */; };
+		5C13875219483E4C009EF184 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C13875119483E4C009EF184 /* AudioToolbox.framework */; };
+		5C13875419483E5F009EF184 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C13875319483E5F009EF184 /* SystemConfiguration.framework */; };
+		5C138757194841CF009EF184 /* AudioPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C138756194841CF009EF184 /* AudioPlayerView.m */; };
+		5C13875A19484241009EF184 /* SampleQueueId.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C13875919484241009EF184 /* SampleQueueId.m */; };
 		5CE99440194830900089F309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE9943F194830900089F309 /* Foundation.framework */; };
 		5CE99442194830900089F309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE99441194830900089F309 /* CoreGraphics.framework */; };
 		5CE99444194830900089F309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE99443194830900089F309 /* UIKit.framework */; };
@@ -21,6 +27,7 @@
 		5CE99461194830900089F309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE99443194830900089F309 /* UIKit.framework */; };
 		5CE99469194830900089F309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CE99467194830900089F309 /* InfoPlist.strings */; };
 		5CE9946B194830900089F309 /* LiveVTSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9946A194830900089F309 /* LiveVTSTests.m */; };
+		A727F9C6293C4D64973CC438 /* libPods-LiveVTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF76B30E11E49BB96C845C5 /* libPods-LiveVTS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF76B30E11E49BB96C845C5 /* libPods-LiveVTS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveVTS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C13874C194839A3009EF184 /* LiveVTSChLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVTSChLiveViewController.h; sourceTree = "<group>"; };
+		5C13874D194839A3009EF184 /* LiveVTSChLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVTSChLiveViewController.m; sourceTree = "<group>"; };
+		5C13874F19483E44009EF184 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5C13875119483E4C009EF184 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5C13875319483E5F009EF184 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5C138755194841CF009EF184 /* AudioPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerView.h; sourceTree = "<group>"; };
+		5C138756194841CF009EF184 /* AudioPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerView.m; sourceTree = "<group>"; };
+		5C13875819484241009EF184 /* SampleQueueId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQueueId.h; sourceTree = "<group>"; };
+		5C13875919484241009EF184 /* SampleQueueId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQueueId.m; sourceTree = "<group>"; };
 		5CE9943C194830900089F309 /* LiveVTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveVTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE9943F194830900089F309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CE99441194830900089F309 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,7 @@
 		5CE99466194830900089F309 /* LiveVTSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveVTSTests-Info.plist"; sourceTree = "<group>"; };
 		5CE99468194830900089F309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CE9946A194830900089F309 /* LiveVTSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveVTSTests.m; sourceTree = "<group>"; };
+		9324C71E431A487C98F5E30C /* Pods-LiveVTS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveVTS.xcconfig"; path = "Pods/Pods-LiveVTS.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C13875419483E5F009EF184 /* SystemConfiguration.framework in Frameworks */,
+				5C13875219483E4C009EF184 /* AudioToolbox.framework in Frameworks */,
+				5C13875019483E44009EF184 /* AVFoundation.framework in Frameworks */,
 				5CE99442194830900089F309 /* CoreGraphics.framework in Frameworks */,
 				5CE99444194830900089F309 /* UIKit.framework in Frameworks */,
 				5CE99440194830900089F309 /* Foundation.framework in Frameworks */,
+				A727F9C6293C4D64973CC438 /* libPods-LiveVTS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +108,7 @@
 				5CE99464194830900089F309 /* LiveVTSTests */,
 				5CE9943E194830900089F309 /* Frameworks */,
 				5CE9943D194830900089F309 /* Products */,
+				9324C71E431A487C98F5E30C /* Pods-LiveVTS.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +124,14 @@
 		5CE9943E194830900089F309 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C13875319483E5F009EF184 /* SystemConfiguration.framework */,
+				5C13875119483E4C009EF184 /* AudioToolbox.framework */,
+				5C13874F19483E44009EF184 /* AVFoundation.framework */,
 				5CE9943F194830900089F309 /* Foundation.framework */,
 				5CE99441194830900089F309 /* CoreGraphics.framework */,
 				5CE99443194830900089F309 /* UIKit.framework */,
 				5CE9945E194830900089F309 /* XCTest.framework */,
+				0CF76B30E11E49BB96C845C5 /* libPods-LiveVTS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,9 +139,15 @@
 		5CE99445194830900089F309 /* LiveVTS */ = {
 			isa = PBXGroup;
 			children = (
+				5C13875819484241009EF184 /* SampleQueueId.h */,
+				5C13875919484241009EF184 /* SampleQueueId.m */,
+				5C138755194841CF009EF184 /* AudioPlayerView.h */,
+				5C138756194841CF009EF184 /* AudioPlayerView.m */,
 				5CE9944E194830900089F309 /* LiveVTSAppDelegate.h */,
 				5CE9944F194830900089F309 /* LiveVTSAppDelegate.m */,
 				5CE99451194830900089F309 /* Main.storyboard */,
+				5C13874C194839A3009EF184 /* LiveVTSChLiveViewController.h */,
+				5C13874D194839A3009EF184 /* LiveVTSChLiveViewController.m */,
 				5CE99454194830900089F309 /* LiveVTSViewController.h */,
 				5CE99455194830900089F309 /* LiveVTSViewController.m */,
 				5CE99457194830900089F309 /* Images.xcassets */,
@@ -159,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE9946E194830900089F309 /* Build configuration list for PBXNativeTarget "LiveVTS" */;
 			buildPhases = (
+				75C9B2826179479697B0F822 /* Check Pods Manifest.lock */,
 				5CE99438194830900089F309 /* Sources */,
 				5CE99439194830900089F309 /* Frameworks */,
 				5CE9943A194830900089F309 /* Resources */,
+				0C872254F39C4BF0AC47C944 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +280,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C872254F39C4BF0AC47C944 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LiveVTS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C9B2826179479697B0F822 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CE99438194830900089F309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5CE99456194830900089F309 /* LiveVTSViewController.m in Sources */,
+				5C138757194841CF009EF184 /* AudioPlayerView.m in Sources */,
 				5CE99450194830900089F309 /* LiveVTSAppDelegate.m in Sources */,
 				5CE9944C194830900089F309 /* main.m in Sources */,
+				5C13875A19484241009EF184 /* SampleQueueId.m in Sources */,
+				5C13874E194839A3009EF184 /* LiveVTSChLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +445,14 @@
 		};
 		5CE9946F194830900089F309 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9324C71E431A487C98F5E30C /* Pods-LiveVTS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LiveVTS/LiveVTS-Prefix.pch";
 				INFOPLIST_FILE = "LiveVTS/LiveVTS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,12 +460,14 @@
 		};
 		5CE99470194830900089F309 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9324C71E431A487C98F5E30C /* Pods-LiveVTS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LiveVTS/LiveVTS-Prefix.pch";
 				INFOPLIST_FILE = "LiveVTS/LiveVTS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +532,7 @@
 				5CE99470194830900089F309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CE99471194830900089F309 /* Build configuration list for PBXNativeTarget "LiveVTSTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +541,7 @@
 				5CE99473194830900089F309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
